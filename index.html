@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roberto Oppelt Filho | Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="tail-container bg-zinc-950 text-zinc-200">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-lg z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span class="heading-font text-2xl font-semibold tracking-tighter">Roberto Oppelt Filho</span>
+            </div>
+            
+            <div class="hidden md:flex gap-8 text-sm font-medium">
+                <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
+                <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
+                <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+            </div>
+
+            <a href="https://github.com" target="_blank"
+               class="px-6 py-3 bg-white text-zinc-900 rounded-2xl font-semibold flex items-center gap-2 hover:bg-blue-600 hover:text-white transition-all">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">            
+                <h1 class="heading-font text-6xl md:text-7xl font-bold leading-none tracking-tighter">
+                    Building my <span class="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">future</span> one line of code at time. 
+                </h1>          
+                <p class="text-xl text-zinc-400 max-w-md">
+                </p>
+
+                <div class="flex gap-4">
+                    <a href="#projects" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-2xl font-semibold flex items-center gap-3 transition-all">
+                        Explore Projects
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="https://github.com/RoppeltF" target="_blank"
+                       class="px-8 py-4 border border-zinc-300 hover:border-white rounded-2xl font-medium flex items-center gap-3 transition-all">
+                        <i class="fa-brands fa-github"></i>
+                        View GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="hidden md:flex justify-center">
+                <div class="relative">
+                    <img src="assets/img/profile.jpg" alt="Profile" class="w-full max-w-md rounded-3xl shadow-2xl border border-white/10">
+                    <div class="absolute -bottom-6 -right-6 glass rounded-3xl p-6 max-w-xs">
+                        <!-- <p class="text-sm text-zinc-300">"No Friday deploy"</p> -->
+                        <div class="text-xs text-zinc-400 mt-2">- Roberto Oppelt Filho</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Advanced CSS Grid -->
+    <section id="projects" class="py-24 bg-zinc-900">
+        
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <span class="uppercase tracking-widest text-blue-400 text-sm font-mono">Featured on GitHub</span>
+                    <h2 class="heading-font text-5xl font-semibold tracking-tight mt-2">My Projects</h2>
+                </div>
+                <a href="https://github.com" target="_blank" class="text-blue-400 hover:text-blue-300 flex items-center gap-2">
+                    View all repositories <span class="text-xl">→</span>
+                </a>
+            </div>
+        
+            <div class="projects-grid grid-container">
+                
+                <!-- Featured Project
+                <div class="project-card featured bg-zinc-950 border border-zinc-700 rounded-3xl overflow-hidden group">
+                    <div class="h-80 bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center relative">
+                        <span class="text-8xl font-bold text-white/90">AI</span>
+                        <div class="absolute top-6 right-6 bg-black/60 text-xs px-4 py-2 rounded-full">Featured</div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-2">NexusAI - Autonomous Agents</h3>
+                        <p class="text-zinc-400 mb-6">Open-source platform for building intelligent AI agents with memory and tools.</p>
+                        <div class="flex gap-2 flex-wrap">
+                            <span class="text-xs bg-zinc-800 px-4 py-2 rounded-2xl">Next.js</span>
+                            <span class="text-xs bg-zinc-800 px-4 py-2 rounded-2xl">Python</span>
+                            <span class="text-xs bg-zinc-800 px-4 py-2 rounded-2xl">LangChain</span>
+                        </div>
+                        <div class="mt-6 flex justify-between items-center text-sm">
+                            <span class="text-emerald-400 font-mono">2.8k ★</span>
+                            <a href="#" class="flex items-center gap-2 hover:text-blue-400">
+                                <i class="fa-brands fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Regular Projects
+                <div class="project-card bg-zinc-950 border border-zinc-700 rounded-3xl overflow-hidden group">
+                    <div class="h-52 bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center text-5xl">📊</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-semibold">MetricForge Analytics</h3>
+                        <p class="text-zinc-400 text-sm mt-3 mb-6 line-clamp-3">Real-time SaaS analytics dashboard with beautiful visualizations.</p>
+                        <div class="flex gap-2">
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">TypeScript</span>
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">Recharts</span>
+                        </div>
+                        <div class="mt-8 text-emerald-400 text-sm font-mono">1.9k ★</div>
+                    </div>
+                </div>
+
+                <div class="project-card bg-zinc-950 border border-zinc-700 rounded-3xl overflow-hidden group">
+                    <div class="h-52 bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center text-5xl">⚡</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-semibold">DevPulse CLI</h3>
+                        <p class="text-zinc-400 text-sm mt-3 mb-6 line-clamp-3">Developer productivity tracker built with Rust and Tauri.</p>
+                        <div class="flex gap-2">
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">Rust</span>
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">Tauri</span>
+                        </div>
+                        <div class="mt-8 text-emerald-400 text-sm font-mono">874 ★</div>
+                    </div>
+                </div>
+
+                <div class="project-card bg-zinc-950 border border-zinc-700 rounded-3xl overflow-hidden group">
+                    <div class="h-52 bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-5xl">🚀</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-semibold">LaunchPad UI Kit</h3>
+                        <p class="text-zinc-400 text-sm mt-3 mb-6 line-clamp-3">Modern component library for SaaS startups.</p>
+                        <div class="flex gap-2">
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">React</span>
+                            <span class="text-xs bg-zinc-800 px-3 py-1 rounded-xl">Tailwind</span>
+                        </div>
+                        <div class="mt-8 text-emerald-400 text-sm font-mono">3.1k ★</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>  
+
+    <!-- About Me -->
+    <section id="about" class="py-24 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="mb-16">
+                <span class="uppercase tracking-widest text-blue-400 text-sm font-mono">
+                    Get to know me better
+                </span>
+
+                <h2 class="heading-font text-5xl font-semibold tracking-tight mt-2">
+                    About Me
+                </h2>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-10">
+
+                <div class="lg:col-span-2 glass rounded-3xl p-10">
+
+                    <p class="text-zinc-300 leading-8 mb-6">
+                        I'm an IT professional with over <strong class="text-white">10 years of experience</strong>
+                        supporting enterprise environments, solving technical problems, and helping customers across
+                        global companies including Amazon, Dell Technologies, and HCL Technologies.
+                    </p>
+
+                    <p class="text-zinc-300 leading-8 mb-6">
+                        Throughout my career I've worked in technical support, incident management, and customer service,
+                        always focusing on practical solutions that improve both user experience and business processes.
+                    </p>
+
+                    <p class="text-zinc-300 leading-8 mb-6">
+                        My technical background includes <strong class="text-white">Windows and Linux administration</strong>, Active Directory,
+                        SCCM, Workspace ONE, PowerShell and Python, along with troubleshooting hardware,
+                        software and networking issues.
+                    </p>
+
+                    <p class="text-zinc-300 leading-8">
+                        Today I'm expanding my focus toward <strong class="text-white">software development</strong>, building projects with Python, Flask, Linux, and modern web technologies. 
+                        I enjoy creating practical solutions, automating repetitive tasks, and continuously learning new technologies.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-24 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="heading-font text-5xl font-semibold text-center mb-16">Tech Stack</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="glass p-8 rounded-3xl text-center hover:border-purple-500/30 border border-transparent transition-all">
+                    <div class="text-5xl mb-4">
+                        <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="Python Logo" width="200" height="200"> 
+                    </div>
+                    <h4 class="font-semibold">Python</h4>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center hover:border-rose-500/30 border border-transparent transition-all">
+                    <div class="text-5xl mb-4"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5 Logo" width="350" height="350"> 
+                    </div>
+                    <h4 class="font-semibold"></h4>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center hover:border-blue-500/30 border border-transparent transition-all">
+                    <div class="text-5xl mb-4"> 
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3 Logo" width="200" height="200">  
+                    </div>
+                    <h4 class="font-semibold"></h4>
+                </div>
+                <div class="glass p-8 rounded-3xl text-center hover:border-amber-500/30 border border-transparent transition-all">
+                    <div class="text-5xl mb-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostgreSQL Logo" width="180">
+                    </div>
+                    <h4 class="font-semibold">PostgreSQL</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-16 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-zinc-400">© 2026 Roberto Oppelt Filho</p>
+        </div>
+    </footer>
+
+    <script>
+        // Optional smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

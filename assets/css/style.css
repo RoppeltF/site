@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+    --primary: 59 130 246;
+}
+
+.tail-container {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+.heading-font {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hero-bg {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+}
+
+.grid-container {
+    display: grid;
+    gap: 2rem;
+}
+
+/* Advanced Project Grid */
+.projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-auto-rows: minmax(380px, auto);
+}
+
+.project-card {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px -15px rgb(59 130 246 / 0.3);
+}
+
+.featured {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+    
